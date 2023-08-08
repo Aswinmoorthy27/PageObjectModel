@@ -15,7 +15,7 @@ public class VerifyloginPage extends Base {
 
 		LoginPage obj = new LoginPage();
 		obj.EnterUsername().EnterPwd().ClickButton().verifyTitle().crmclick().myhomeverify().Clickleads().Createlead()
-				.Companyname().Firstname().Lastname().Phonenumber().Submit().Verfiy();
+				.Companyname().Firstname().Lastname().Phonenumber().Submit().Verfiy().verifyleadpage().VerifyFirstname();
 
 	}
 
